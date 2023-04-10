@@ -1,2 +1,3 @@
 From Ubuntu
-Run install vim 
+Run install vim
+Run
