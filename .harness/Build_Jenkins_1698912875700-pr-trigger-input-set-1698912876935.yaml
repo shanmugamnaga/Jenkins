@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_Jenkins_1698912875700-pr-trigger-input-set
+  identifier: Build_Jenkins_1698912875700prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_Jenkins_1698912875700
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
