@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_Jenkins_1698912875700-push-trigger-input-set
+  identifier: Build_Jenkins_1698912875700pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_Jenkins_1698912875700
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
